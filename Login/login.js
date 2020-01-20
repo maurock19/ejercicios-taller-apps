@@ -1,27 +1,27 @@
-const email = window.document.querySelector("#mail");
-const password = window.document.querySelector("#passwo");
-const boton = window.document.querySelector("#boton");
+const email = window.document.querySelector('#email');
+const contra = window.document.querySelector('#contra');
+const boton = window.document.querySelector('#boton');
 
-boton.addEventListener('click', Validar_Datos);
+boton.addEventListener('click',MostrarDatos);
 
-function Validar_Datos() {
+function MostrarDatos(){
     const emailValue = email.value;
-    const passwordValue = password.value;
+    const contraValue = contra.value;
 
-    if (emailValue !== '') {
+    if (emailValue !== ''){
         console.log('email: ' + email.value);
-        console.log('password: ' + password.value);
+        console.log('contra: '+ contra.value);
         email.value = "";
-        password.value = "";
+        contra.value = "";
         email.focus();
 
-        if (emailValue == "ejemplo@gmail.com" && passwordValue == '123456') {
-            console.log("Estas iniciando sesion ");
+        if (emailValue == "ejemplo@gmail.com" && contraValue == '123456'){
+            alert('Ingresando');
+            window.location ="indexLa.html"
         } else {
-            console.log("El email o contraseña son incorrectos!");
+            alert('Email o Conttraseña son Incorrectos');
         }
     } else {
-        console.log(" no has escrito nada!")
+        alert('campos en blanco')
     }
 }
-

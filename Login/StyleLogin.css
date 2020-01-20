@@ -1,6 +1,7 @@
 .cajaLogin{
     margin-left: 500px;
     margin-top: 200px;
+    position: absolute;
 }
 div{
     height: 300px;
@@ -8,6 +9,8 @@ div{
     margin-right: 500px;
     border-radius: 10%;
     background: #CDFFFF;
+    position: absolute;
+    width: 333px;
     
 }
 .titulo{
@@ -16,7 +19,7 @@ div{
     font-family:roboto;
 }
 .username{
-    margin-left: 30px;
+    margin-left: 33px;
     margin-top: 30px;
     margin-bottom: 20px;
     width: 270px;
@@ -25,7 +28,7 @@ div{
     border-radius: 30px;
 }
 .pass{
-    margin-left: 30px;
+    margin-left: 33px;
     width: 270px;
     height: 30px;
     border: 1px solid #22E5E5 ;
@@ -33,7 +36,7 @@ div{
 }
 .logine{
     background:#029C9C ;
-    margin-left: 30px;
+    margin-left: 33px;
     margin-top: 20px;
     width: 270px;
     height: 40px;
