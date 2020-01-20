@@ -53,10 +53,22 @@ main{
 }
 .h1{
     margin-left: 40px;
+    width: 200px;
+    margin-top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 56px;
+    background: #C3F1FF;
 }
 .zafary{
     margin-left: 400px;   
 }
 .cuerpo2{
     margin-left: 300px;
+}
+.what{
+    width: 990px;
+    height: 750px;
 }
